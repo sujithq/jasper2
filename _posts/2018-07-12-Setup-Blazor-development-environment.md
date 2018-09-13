@@ -22,7 +22,7 @@ We will use these tools
 
 Create a local directory with one subdirectory app.
 
-![](assets/images/2018-06-22/create_directory.png)
+![](assets/images/2018-07-12/create_directory.png)
 
 # Create Dockerfile
 
@@ -60,7 +60,7 @@ This adds a label `latest`.
 The creation of the image can be verified by `docker images`
 You should see 2 images. Base image and the one you just created.
 
-![](assets/images/2018-06-22/docker_images.png)
+![](assets/images/2018-07-12/docker_images.png)
 
 # Start a container instance
 At the prompt run `docker run -it --rm --name blazortest -p 8000:80 -v H:\Euricom\Blazor\app\:/app  -w="/app" blazor:latest`
@@ -86,7 +86,7 @@ This sets the working directory to `/app`
 ## verify
 In another terminal you should see named instance blazortest
 
-![](assets/images/2018-06-22/docker_running_instances.png)
+![](assets/images/2018-07-12/docker_running_instances.png)
 
 
 # Create a new blazor project
@@ -118,11 +118,11 @@ Open the project file app.csproj and add this node `<Watch Include="**\*.cshtml"
 # Start the application
 Start the application via `dotnet watch run`
 
-![](assets/images/2018-06-22/dotnet_watch_run.png)
+![](assets/images/2018-07-12/dotnet_watch_run.png)
 
 # Launch the application
 Open a browser and launch `http://localhost:8000`
 
-![](assets/images/2018-06-22/launch_chrome.png "Chrome")
-![](assets/images/2018-06-22/launch_edge.png "Edge")
-![](assets/images/2018-06-22/launch_ff.png "Firefox")
+![](assets/images/2018-07-12/launch_chrome.png "Chrome")
+![](assets/images/2018-07-12/launch_edge.png "Edge")
+![](assets/images/2018-07-12/launch_ff.png "Firefox")
