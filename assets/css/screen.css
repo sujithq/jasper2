@@ -1473,7 +1473,9 @@ Usage (In Ghost editor):
 }
 
 .floating-header-share-tw,
-.floating-header-share-fb {
+.floating-header-share-fb,
+.floating-header-share-li,
+.floating-header-share-gh {
     display: block;
     align-items: center;
     width: 60px;
@@ -1490,6 +1492,14 @@ Usage (In Ghost editor):
 
 .floating-header-share-fb {
     background: #005e99;
+}
+
+.floating-header-share-li {
+    background: #0077b5;
+}
+
+.floating-header-share-gh {
+    background: #24292e;
 }
 
 .progress {
@@ -1544,7 +1554,9 @@ Usage (In Ghost editor):
         font-size: 1.5rem;
     }
     .floating-header-share-tw,
-    .floating-header-share-fb {
+    .floating-header-share-fb,
+    .floating-header-share-li ,
+    .floating-header-share-gh {
         width: 40px;
         height: 40px;
         line-height: 38px;

@@ -3,15 +3,24 @@ layout: page
 current: about
 title: About
 navigation: true
-logo: 'assets/images/ghost.png'
+logo: assets/images/sujith-cover.jpg
 class: page-template
 subclass: 'post page'
 ---
 
-Ghost is professional publishing platform designed for modern journalism. This is a demo site of a basic Ghost install to give you a general sense of what a new Ghost site looks like when set up for the first time.
+Hi, I am Sujith Quintelier and I currently work as an Azure Consultant for [Euricom](https://www.euri.com). Previously I worked as a .NET Architect and Dev Lead and Coach.
 
-> If you'd like to set up a site like this for yourself, head over to [Ghost.org](https://ghost.org/) and start a free 14 day trial to give Ghost a try!
+The purpose of this blog is to write down my personal and working experience and to share my findings. There is no affiliation with my employer or any other software vendor.
 
-If you're a developer: Ghost is a completely open source (MIT) Node.js application built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite, and is publicly available [on Github](https://github.com/TryGhost/ghost).
+If you have any question you can always send me a message via [mail](mailto:sujith.quintelier@gmail.com?SUBJECT=Question).
 
-If you need help with using Ghost, you'll find a ton of useful articles on [our knowledgebase](https://help.ghost.org/), as well as extensive [developer documentation](https://docs.ghost.org/).
+<form action="https://formspree.io/sujith.quintelier@euri.com" method="POST">
+    <input type="text" name="name">
+    <input rows="4" cols="50" name="_subject">
+<textarea rows="4" cols="50" name="message">
+Message
+</textarea>
+    <input type="email" name="_replyto">
+    <input name="_gotcha">
+    <input type="submit" value="Send">
+</form>

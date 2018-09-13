@@ -74,3 +74,16 @@ martin:
   facebook: False
   twitter: False
   cover: False
+sujith:
+  username: sujith
+  name: Sujith Quintelier
+  location: Boortmeerbeek, Belgium
+  url_full: False
+  url: False
+  bio: An Azure/.NET Solutions Architect
+  picture: assets/images/sujith.jpg
+  facebook: sujith.quintelier
+  twitter: SujithQ
+  linkedin: sujithquintelier
+  github: sujithq
+  cover: assets/images/sujith-cover.jpg

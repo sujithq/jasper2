@@ -1,3 +1,5 @@
+{% assign excerpt = page.content | strip_html | truncatewords: 50, "" %}
+
 <div class="floating-header">
     <div class="floating-header-logo">
         <a href="{{ site.url }}{{ site.baseurl }}">
@@ -18,6 +20,10 @@
         <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u={{ site.production_url }}{{ page.url | remove_first: '/' }}"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             {% include facebook.html %}
+        </a>
+        <a class="floating-header-share-li" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.production_url }}{{ page.url | remove_first: '/' }}&title={{page.title | url_encode}}&summary={% if excerpt %}{{ excerpt }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}&source="
+            onclick="window.open(this.href, 'share-linkedin','width=580,height=296');return false;">
+            {% include linkedin.html %}
         </a>
     </div>
     <progress class="progress" value="0">
