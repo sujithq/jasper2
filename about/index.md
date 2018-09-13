@@ -1,9 +1,9 @@
 ---
 layout: page
 current: about
-title: About
+title: About me
 navigation: true
-logo: assets/images/sujith-cover.jpg
+cover: assets/images/sujith.jpg
 class: page-template
 subclass: 'post page'
 ---
