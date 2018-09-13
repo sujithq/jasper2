@@ -1,10 +1,10 @@
 ---
 layout: post
 current: post
-cover: assets/images/2018-09-13/cover.jpg
+cover: assets/images/2018-06-22/cover.jpg
 navigation: True
 title: Create, build and deploy Azure Functions with Visual Studio, Teamcity and Octopus Deploy
-date: 2018-09-13 10:00:00
+date: 2018-06-22 10:00:00
 tags: [Azure, Functions, Visual Studio, Teamcity, Octopus Deploy]
 class: post-template
 subclass: 'post'
@@ -24,11 +24,11 @@ Following this note you will be able to Create, Build and Deploy a simple Azure 
 For this purpose I deployed a Azure VM using this [template] (https://portal.azure.com/#create/octopus.octopusdeployoctopus-deploy), installed an OD Tentacle, a TC Agent and OD cli (in `C:\Programs\Octo`). OD downloads can be found [here] (https://octopus.com/downloads). Also install the correct .NET version via this [link] (https://www.microsoft.com/web/downloads/platform.aspx) and set the DOTNET_HOME environment variable in TC to `C:\Program Files\dotnet\`
 
 Make sure you have installed the Azure development workload in VS. Check via TOOLS\Get Tools and Features...
-![](assets/images/2018-09-13/ZuinKne.png)
+![](assets/images/2018-06-22/ZuinKne.png)
 
 On Workloads tab check Azure development
 
-![](assets/images/2018-09-13/oojIgPk.png)
+![](assets/images/2018-06-22/oojIgPk.png)
 
 # Create
 We use VS for developing the Function. Store the project in a source control system supported by TC.
@@ -49,7 +49,7 @@ Below you will find a basic ARM Template with these 3 resources and a parameters
 
 The project structure should look like
     
-![](assets/images/2018-09-13/2yV3WSe.png)
+![](assets/images/2018-06-22/2yV3WSe.png)
 
 ### Template
 
@@ -201,7 +201,7 @@ These are use in TC in scripts, variable names, ...
 
 ## publish
 This runner type is .NET CLI (dotnet). Give a Step name. Choose publish as Command. Select the project. Set Configuration and Output directory to bin\Release\PublishOutput
-![](assets/images/2018-09-13/bsGq2cx.png)
+![](assets/images/2018-06-22/bsGq2cx.png)
 
 ## pack
 This runner type is Command Line. Give a Step name. Choose Custom script and enter script below.
