@@ -14,3 +14,11 @@ getting-started:
   name: getting-started
   description: False
   cover: False
+blazor:
+  name: blazor
+  description: Full-stack web development with C# and WebAssembly
+  cover: assets/images/tags/blazor-cover.png
+docker:
+  name: docker
+  description: The Dev to Ops Choice for Container Platforms
+  cover: assets/images/tags/docker-cover.png
