@@ -16,9 +16,29 @@ getting-started:
   cover: False
 blazor:
   name: blazor
-  description: Full-stack web development with C# and WebAssembly
+  description: Full-stack web development with C# and WebAssembly.
   cover: assets/images/tags/blazor-cover.png
 docker:
   name: docker
-  description: The Dev to Ops Choice for Container Platforms
+  description: The Dev to Ops Choice for Container Platforms.
   cover: assets/images/tags/docker-cover.png
+azure:
+  name: azure
+  description: Turn your ideas into solutions faster using a trusted cloud that is designed for you. Azure. Cloud for all.
+  cover: assets/images/tags/azure-cover.svg
+visual-studio:
+  name: Visual Studio
+  description: Develop apps for Android, iOS, Mac, Windows, web, and cloud. Write your code fast. Debug and diagnose with ease. Test often, release with confidence. Extend and customize to your liking. Collaborate efficiently.
+  cover: assets/images/tags/visual-studio-cover.png
+teamcity:
+  name: False
+  description: Powerful Continuous Integration out of the box.
+  cover: assets/images/tags/teamcity-cover.jpg
+octopus-deploy:
+  name: Octopus Deploy
+  description: Octopus takes over where your Continuous Integration server ends, enabling you to easily automate even the most complicated application deployments, whether on-premises or in the cloud.
+  cover: assets/images/tags/octopus-deploy-cover.png
+azure-functions:
+  name: azure functions
+  description: Take advantage of serverless compute.
+  cover: assets/images/tags/azure-functions-cover.png

@@ -5,7 +5,7 @@ cover: assets/images/2018-06-22/cover.jpg
 navigation: True
 title: Create, build and deploy Azure Functions with Visual Studio, Teamcity and Octopus Deploy
 date: 2018-06-22 10:00:00
-tags: [Azure, Functions, Visual Studio, Teamcity, Octopus Deploy]
+tags: [azure, azure-functions, visual-studio, teamcity, octopus-deploy]
 class: post-template
 subclass: 'post'
 author: sujith
