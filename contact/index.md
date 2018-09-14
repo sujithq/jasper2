@@ -10,7 +10,7 @@ subclass: 'post page'
 
 If you have any question you can always send me a message via this form:
 
-<form action="https://formspree.io/sujith.quintelier@euri.com" method="POST">
+<form action="https://formspree.io/sujith.quintelier@gmail.com" method="POST">
   <div class="form-group">
     <label for="name">Name</label>
     <input type="text" class="form-control form-control-lg" id="name" name="name" placeholder="Enter your full name">
