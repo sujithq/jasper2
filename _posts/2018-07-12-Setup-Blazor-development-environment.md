@@ -5,7 +5,7 @@ cover: assets/images/2018-07-12/cover.jpg
 navigation: True
 title: Setup Blazor development environment
 date: 2018-07-12 10:00:00
-tags: [Blazor, Docker]
+tags: [blazor, docker]
 class: post-template
 subclass: 'post'
 author: sujith
