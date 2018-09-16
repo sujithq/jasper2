@@ -52,7 +52,7 @@ The project structure should look like
 ![](assets/images/2018-06-22/2yV3WSe.png)
 
 ### Template
-
+````json
     {
       "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
       "contentVersion": "1.0.0.0",
@@ -175,9 +175,10 @@ The project structure should look like
         }
       ]
     }
+````
 
 ### Parameters
-
+````json
     {
       "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
       "contentVersion": "1.0.0.0",
@@ -187,7 +188,7 @@ The project structure should look like
         }
       }
     }
-
+````
 # Build
 In TC Create a new project, add a new Build Configuration with 3 Build Steps.
 
@@ -206,7 +207,7 @@ This runner type is .NET CLI (dotnet). Give a Step name. Choose publish as Comma
 ## pack
 This runner type is Command Line. Give a Step name. Choose Custom script and enter script below.
 
-```
+```batch
 cd tc-od\bin\Release\PublishOutput
 C:\Programs\Octo\octo pack --id=%packageId% --format=zip --outFolder=../dist --version=%version%
 ```
@@ -216,7 +217,7 @@ This runner type is Command Line. Give a Step name. Choose Custom script and ent
 
 This pushed the zip file to OD.
 
-```Batchfile
+```batch
 cd tc-od\bin\Release\dist
 C:\Programs\Octo\octo push --server=%server% --apiKey=%apikey% --package=%packageId%.%version%.zip
 ```
