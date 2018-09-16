@@ -28,7 +28,7 @@ linkedin: sujithquintelier # replace by your username
 github: sujithq # replace by your username
 
 # Disqus
-disqus: False
+disqus: True
 disqus_shortname: https-sujithq-github-io # replace with your disqus username
 
 # Google Analytics
